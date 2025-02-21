@@ -1,3 +1,25 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+.left {
+    display: grid !important;
+    gap: 1.5rem !important;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content min-content;
+
+    .page-title {
+        grid-area: 1 / 1 / 2 / 3;
+
+        a {
+            font-weight: 100;
+        }
+    }
+
+    .search {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .darkmode {
+        grid-area: 2 / 2 / 3 / 3;
+        align-self: center;
+    }
+}
