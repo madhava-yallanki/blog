@@ -121,9 +121,7 @@ export function renderPage(
                 type: "element",
                 tagName: "a",
                 properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
-                children: [
-                  { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
-                ],
+                children: [{ type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal }],
               },
             ]
           }
@@ -164,9 +162,7 @@ export function renderPage(
               type: "element",
               tagName: "a",
               properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
-              children: [
-                { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
-              ],
+              children: [{ type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal }],
             },
           ]
         } else if (page.htmlAst) {
@@ -194,9 +190,7 @@ export function renderPage(
               type: "element",
               tagName: "a",
               properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
-              children: [
-                { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
-              ],
+              children: [{ type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal }],
             },
           ]
         }
@@ -207,16 +201,7 @@ export function renderPage(
   // set componentData.tree to the edited html that has transclusions rendered
   componentData.tree = root
 
-  const {
-    head: Head,
-    header,
-    beforeBody,
-    pageBody: Content,
-    afterBody,
-    left,
-    right,
-    footer: Footer,
-  } = components
+  const { head: Head, header, beforeBody, pageBody: Content, afterBody, left, right, footer: Footer } = components
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
 
@@ -251,11 +236,13 @@ export function renderPage(
                     <HeaderComponent {...componentData} />
                   ))}
                 </Header>
-                <div class="popover-hint">
-                  {beforeBody.map((BodyComponent) => (
-                    <BodyComponent {...componentData} />
-                  ))}
-                </div>
+                {slug !== "index" && (
+                  <div class="popover-hint">
+                    {beforeBody.map((BodyComponent) => (
+                      <BodyComponent {...componentData} />
+                    ))}
+                  </div>
+                )}
               </div>
               <Content {...componentData} />
               <div class="page-footer">
