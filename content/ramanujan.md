@@ -1,5 +1,6 @@
 ---
 title: Ramanujan
+modified: 2025-10-04
 tags:
   - books
 ---
