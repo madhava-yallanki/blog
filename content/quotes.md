@@ -10,3 +10,4 @@ tags:
 - Reality does not exist as something separate from the act of observation. Prior to observation, it cannot even be conceived of. - Benjamin Labatut, When We Cease to Understand the World
 - You can't let the big they impose its bigotry on you any more than you can let the little they become a we and impose its ethics on you. - Philip Roth, The Human Stain
 - But the danger with hatred is, once you start in on it, you get a hundred times more than you bargained for. Once you start, you can't stop. - Philip Roth, The Human Stain
+- Behind all occupations and invasions lurks a more basic, pervasive evil and that the image of that evil was a parade of people marching by with raised fists and shouting identical syllables in unison. - Milan Kundera, The Unbearable Lightness of Being

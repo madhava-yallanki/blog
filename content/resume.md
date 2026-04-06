@@ -4,7 +4,6 @@ modified: 2025-07-27
 tags:
   - evergreen
 ---
-
 Over my 12+ years of progression from Software Engineer to Engineering Manager, I've worked on building solutions for complex challenges in FinTech and Healthcare. Lately, I've been exploring AI agentic workflows to enhance scale and productivity in small business lending applications. I've always enjoyed working with ambiguous problems, exploring ideas, and building them into tangible products from the ground up.
 
 ## Experience

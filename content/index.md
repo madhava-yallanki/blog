@@ -9,7 +9,7 @@ tags:
 
 Welcome!
 
-I'm Madhava. A software engineer turned engineering manager turned entrepreneur. Currently, I am building [Voxar](https://voxar.ai) an AI-powered origination, underwriting, and servicing platform for SMB lending.
+I'm Madhava. A software engineer turned engineering manager turned entrepreneur. Currently, I am building [Voxar](https://voxar.ai) an AI-powered origination, underwriting, and servicing platform for lending.
 
 Beyond work, I am still trying to figure out what it all means. There are people I love, things I care for, and some more things that I want to ignore but can't quite. Writing has always been very personal to me. It's a way for me to slow down the stream of thought in my head and try to bring some coherence to it (with varying degrees of success). The idea of putting it all out there on the internet seems strange and intimidating.
 
